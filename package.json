@@ -1,0 +1,26 @@
+{
+  "name": "chronos-time-vault",
+  "version": "1.0.0",
+  "description": "Decentralized Time-Weighted Liquidity Staking & Vesting Vault Protocol on EVM",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "web3",
+    "staking",
+    "vesting",
+    "defi",
+    "hardhat"
+  ],
+  "author": "probableacade",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.19.0"
+  }
+}
